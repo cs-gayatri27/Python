@@ -38,6 +38,14 @@ for i in range(1,10):
     sum = sum + i
 print(sum)
 
+# Nested for loop:
 
+for i in range(6): #i loop
+    for j in range(4): # j loop
+        print("*", end=" ")
+    print("\n")
 
-
+for i in range(1,9):
+    for j in range(i):
+        print("*", end=" ")
+    print("\n")

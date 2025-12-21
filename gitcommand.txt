@@ -1,0 +1,15 @@
+For first time pushing code in github:
+
+git init
+git add .
+git commit -m "your message while pushing code"
+git branch -m main
+git remote add origin[your github link]
+git push -u origin main
+
+Regular code push:
+git init
+git add .
+git commit -m "your message"
+git branch -m main
+git push origin main
